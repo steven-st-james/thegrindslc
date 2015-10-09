@@ -1,0 +1,23 @@
+{
+  "name": "thegrind",
+  "version": "0.0.0",
+  "authors": [
+    "The MAIN Steve Brown <steve.brown@thomasarts.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}
