@@ -1,6 +1,10 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  .wrapper
+    h1 Houston,..... We got a problem!!!!
+    p It looks like the page you are trying to get is not available. It could be somewhere else. Or, you have a bad url!
+    
+    img.404-img(src='http://lorempixel.com/output/nature-q-c-567-346-5.jpg')
+    br
+    a(href='/', class='pure-button pure-button-primary') Try Again!
