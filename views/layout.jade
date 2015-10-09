@@ -24,13 +24,16 @@ html(lang="en")
     body
       .header
         .home-menu.pure-menu.pure-menu-horizontal.pure-menu-fixed
-            a.pure-menu-heading(href="/") #{title}
+            a.pure-menu-heading(href="/") The Grind 
             ul.pure-menu-list
-                li.pure-menu-item.pure-menu-selected
-                    a.pure-menu-link(href="#") The band
+                li.pure-menu-item
+                    a.pure-menu-link(href="the-band", class=(title == 'The band' ? 'active-link': '')) The band
                 li.pure-menu-item
                     a.pure-menu-link(href="/shows") Shows
                 li.pure-menu-item
-                    a.pure-menu-link(href="#") Follow
+                    a.pure-menu-link(href="/follow") Follow
+                  
     block content
-    block footer
+    
+    .footer
+      small The Grindslc.com (c) 2015
